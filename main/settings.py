@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 
     # My App
     'library',
+    'users',
 ]
 
 MIDDLEWARE = [
