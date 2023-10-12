@@ -6,7 +6,7 @@ from .serializers import RegisterSerializer
 from rest_framework.generics import CreateAPIView
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-# Create your views here.
+
 
 class RegisterView(CreateAPIView):
     queryset = User.objects.all()
